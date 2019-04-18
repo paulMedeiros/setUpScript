@@ -33,6 +33,15 @@ brew install \
     python \
     zsh
 
+# git preferences
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.co commit
+git config --global alias.cm commit -m
+git config --global alias.ca commit --amend
+git config --global alias.st status
+git config --global alias.pu push -u origin
+
 # aws cli stuff via python
 # if ssl issues appear, you can use 'pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package>' at own risk
 pip3 install awscli awsebcli
